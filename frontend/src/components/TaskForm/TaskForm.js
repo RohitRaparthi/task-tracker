@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './TaskForm.css'; // uses same shared CSS file
+import './TaskForm.css';
 
 class TaskForm extends Component {
   constructor(props) {

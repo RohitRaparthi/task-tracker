@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import TaskForm from './components/TaskForm/TaskForm';
 import TaskList from './components/TaskList/TaskList';
 import InsightsPanel from './components/InsightsPanel/InsightsPanel';
-import bootstrap from 'bootstrap'
-import './App.css'; // 👈 Add this line
+import './App.css';
 
 class App extends Component {
   constructor(props) {

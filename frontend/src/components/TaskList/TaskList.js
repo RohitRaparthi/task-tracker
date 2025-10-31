@@ -1,5 +1,4 @@
 import React from 'react';
-import bootstrap from 'bootstrap'
 import './TaskList.css';
 
 const TaskList = ({ tasks, onUpdateTask }) => {
@@ -31,7 +30,6 @@ const TaskList = ({ tasks, onUpdateTask }) => {
           </p>
 
           <div className="task-buttons">
-            {/* Show buttons conditionally */}
             {task.status === 'Open' && (
               <button
                 onClick={() => onUpdateTask(task.id, { status: 'In Progress' })}
@@ -59,7 +57,6 @@ const TaskList = ({ tasks, onUpdateTask }) => {
               </button>
             )}
 
-            {/* Priority update always available */}
             {(task.priority === 'Medium' || task.priority === 'High') && (
             <button
               onClick={() => onUpdateTask(task.id, { priority: 'Low' })}
