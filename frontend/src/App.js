@@ -19,7 +19,7 @@ class App extends Component {
     this.fetchInsights();
   }
 
-  backendUrl = 'http://localhost:5000/tasks';
+  backendUrl = 'https://task-tracker-caxa.onrender.com/tasks';
 
   fetchTasks = () => {
     const { status, priority } = this.state.filters;

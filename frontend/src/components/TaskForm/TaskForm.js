@@ -24,7 +24,7 @@ class TaskForm extends Component {
       return;
     }
 
-    fetch('http://localhost:5000/tasks', {
+    fetch('https://task-tracker-caxa.onrender.com/tasks', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ title, description, priority, due_date })
