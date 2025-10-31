@@ -1,0 +1,95 @@
+/* Task List */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.task-card h4 {
+  margin-bottom: 8px;
+}
+
+.task-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.task-buttons button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+}
+
+/* Button colors */
+.btn-secondary {
+  background-color: #007bff;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: black !important;
+}
+
+.btn-high{
+    border: 2px #dc3545 solid !important;
+    background-color: transparent;
+    color: #dc3545 !important;
+}
+.btn-low{
+    border: 2px #28a745 solid !important;
+    background-color: transparent;
+    color: #28a745 !important;
+}
+.btn-medium{
+    border: 2px #ffc107 solid !important;
+    background-color: transparent;
+    color: #ffc107 !important;
+}
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-warning:hover,
+.btn-low:hover,
+.btn-medium:hover,
+.btn-high:hover {
+  opacity: 0.9;
+}
+
+.flag-button-icon {
+  background-color: #007bff; /* Example blue background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-icon {
+  display: inline-block;
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+   /* Replace with your icon path */
+  background-size: cover;
+}
+
+.flag-button-icon:hover {
+  background-color: #0056b3;
+}
